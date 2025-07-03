@@ -40,7 +40,7 @@ class Config:
     # - Signing session cookies
     # - CSRF protection
     # - Any cryptographic operations
-    SECRET_KEY = os.environ.get('SECRET_KEY') or 'dev-secret-key'
+    SECRET_KEY = os.environ.get('SECRET_KEY')
     
     # MongoDB Connection Configuration
     # ================================
@@ -56,7 +56,7 @@ class Config:
     #
     # Flask-PyMongo expects this to be named exactly 'MONGO_URI'
     # The extension looks for app.config['MONGO_URI'] during initialization
-    MONGO_URI = os.environ.get('MONGO_URI') or 'mongodb://localhost:27017/github_webhooks'
+    MONGO_URI = os.environ.get('MONGO_URI')
     
     # GitHub Webhook Secret Configuration
     # ===================================
@@ -67,6 +67,6 @@ class Config:
     # 2. GitHub uses it to create HMAC-SHA256 signature of payload
     # 3. We verify the signature to ensure webhook authenticity
     
-    WEBHOOK_SECRET = os.environ.get('WEBHOOK_SECRET') or 'your-webhook-secret-here'
+    WEBHOOK_SECRET = os.environ.get('WEBHOOK_SECRET')
     
     
