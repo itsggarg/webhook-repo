@@ -10,7 +10,7 @@
 
 A real-time GitHub webhook receiver that captures repository events (Push, Pull Request, Merge) and displays them in a beautiful, auto-updating UI.
 
-[Live Demo]([https://webhook-repo-73u8.onrender.com](https://webhook-repo-1-ajym.onrender.com)) | [Report Bug](https://github.com/itsggarg/webhook-repo/issues) | [Request Feature](https://github.com/itsggarg/webhook-repo/issues)
+[Live Demo](https://webhook-repo-73u8.onrender.com) | [Report Bug](https://github.com/itsggarg/webhook-repo/issues) | [Request Feature](https://github.com/itsggarg/webhook-repo/issues)
 
 </div>
 
@@ -44,7 +44,7 @@ A real-time GitHub webhook receiver that captures repository events (Push, Pull 
 
 <div align="center">
 
-### Live Application: [https://webhook-repo-73u8.onrender.com](https://webhook-repo-73u8.onrender.com)
+### [Live Application](https://webhook-repo-1-ajym.onrender.com)
 ![Screenshot 2025-07-03 011732](https://github.com/user-attachments/assets/b3294d2d-cf5b-43f5-90f8-6c0f9bca381b)
 
 
