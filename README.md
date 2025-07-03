@@ -45,7 +45,8 @@ A real-time GitHub webhook receiver that captures repository events (Push, Pull 
 <div align="center">
 
 ### Live Application: [https://webhook-repo-73u8.onrender.com](https://webhook-repo-73u8.onrender.com)
-![image](https://github.com/user-attachments/assets/b48d372e-410a-4b57-957c-c0e3e2766e6e)
+![Screenshot 2025-07-03 011732](https://github.com/user-attachments/assets/b3294d2d-cf5b-43f5-90f8-6c0f9bca381b)
+
 
 </div>
 
