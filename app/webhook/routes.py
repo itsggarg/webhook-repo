@@ -125,13 +125,7 @@ def receiver():
     # current_app is a proxy to the active Flask application
     from flask import current_app
     webhook_secret = current_app.config.get('WEBHOOK_SECRET')
-    
-    # Verify webhook signature for security
-    # Only verify if a real secret is configured (not the default placeholder)
-    if webhook_secret and webhook_secret != 'your-webhook-secret-here':
-        if not verify_webhook_signature(request.data, signature, webhook_secret):
-            print("❌ Signature verification failed!")
-            return jsonify({'error': 'Invalid signature'}), 401
+
     
     # Parse JSON payload with error handling
     try:
