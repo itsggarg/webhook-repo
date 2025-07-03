@@ -188,7 +188,7 @@ Open your browser and navigate to: http://localhost:5000
 
 ```json
 {
-  "_id": "objectId",            // Unique id for all events
+  "_id": "ObjectId",            // Unique id for all events
   "request_id": "string",       // Commit hash or PR ID
   "author": "string",           // GitHub username
   "action": "string",           // PUSH, PULL_REQUEST, or MERGE
